@@ -1,0 +1,53 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #6200ea;
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #6200ea;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+/* Dark Mode Toggle */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
